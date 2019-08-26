@@ -1,0 +1,7 @@
+<h2>
+  Thanks for your order !
+</h2>
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }} </span>
+</div>
+<button routerLink="/" (click)="clear()">Ok</button>
